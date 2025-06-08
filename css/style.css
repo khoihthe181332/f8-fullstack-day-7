@@ -498,6 +498,7 @@ footer h6 {
   padding: 0 20px;
   margin: 25px 0 10px 0;
   color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
 .footer-description button {
