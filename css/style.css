@@ -380,6 +380,10 @@ li[class="space"] {
   cursor: pointer;
 }
 
+.author-courses-list a:hover {
+  transform: translateY(-5px);
+}
+
 .author-courses-list a::before {
   pointer-events: none;
   position: absolute;
@@ -389,12 +393,13 @@ li[class="space"] {
   left: 5%;
   height: 10px;
   width: 90%;
+  opacity: 0;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
   transition-duration: 0.3s;
 }
 
-.author-courses-list a:hover {
-  transform: translateY(-5px);
+.author-courses-list a:hover::before {
+  opacity: 1;
 }
 
 .courses-list-box:nth-child(3n-1) .author-courses-list a,
