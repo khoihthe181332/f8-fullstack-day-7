@@ -75,10 +75,7 @@ header.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed;
-  z-index: 10;
-  top: 0; */
-}
+} 
 
 header.header.scrolled {
   background-color: rgba(0, 0, 0, 0.9);
@@ -384,6 +381,7 @@ li[class="space"] {
   transform: translateY(-5px);
 }
 
+/* hiện hiệu ứng bóng đổ khi hover vào giá */
 .author-courses-list a::before {
   pointer-events: none;
   position: absolute;
